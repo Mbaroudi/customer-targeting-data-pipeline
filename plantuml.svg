@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1140px" preserveAspectRatio="none" style="width:2600px;height:1140px;background:#FFFFFF;" version="1.1" viewBox="0 0 2600 1140" width="2600px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="128.0469" style="stroke:none;stroke-width:1.0;" width="2592" x="0" y="0"/><text fill="#888888" font-family="sans-serif" font-size="10" font-weight="bold" lengthAdjust="spacing" textLength="116" x="2476" y="9.2822">Schema Description:</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="1756" x="836" y="20.9229">This diagram illustrates a comprehensive data pipeline designed to integrate machine learning predictions and rule-based logic using Pyke for effective customer targeting. The pipeline begins with data collection and progresses through stages of preprocessing, predictive modeling, and rule-based segmentation, culminating in the export of targeted campaign data.</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="3" x="2589" y="32.5635"> </text><text fill="#888888" font-family="sans-serif" font-size="10" font-weight="bold" lengthAdjust="spacing" textLength="50" x="2542" y="44.2041">Purpose:</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="1857" x="735" y="55.8447">The purpose of this pipeline is to harness the predictive power of machine learning to identify potential customer behaviors and preferences, which are then refined using Pyke's rule-based system to segment customers effectively. This targeted approach aims to optimize marketing efforts, improve customer engagement, and increase ROI through more precise campaign strategies.</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="3" x="2589" y="67.4854"> </text><text fill="#888888" font-family="sans-serif" font-size="10" font-weight="bold" lengthAdjust="spacing" textLength="178" x="2414" y="79.126">Predictive Algorithm Principles:</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="2156" x="436" y="90.7666">Machine learning models, such as Random Forest or Neural Networks, analyze historical data to predict future behaviors like Customer Lifetime Value (CLV) or purchase propensity. These models are trained using features derived from customer demographics, past purchase history, and engagement metrics. The objective is to use these predictions to identify high-value customers or those most likely to respond to specific marketing initiatives.</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="3" x="2589" y="102.4072"> </text><text fill="#888888" font-family="sans-serif" font-size="10" font-weight="bold" lengthAdjust="spacing" textLength="143" x="2449" y="114.0479">Pyke Rules for Targeting:</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="2592" x="0" y="125.6885">Pyke employs a knowledge-based system where rules are defined to act on the machine learning outputs. For example, a rule might specify that customers with a CLV prediction above a certain threshold and a recent purchase are targeted with a "Premium Campaign". Another rule might target customers under a different threshold but with high engagement in recent campaigns with a "Loyalty Campaign". These rules can dynamically adjust based on ongoing data analysis, allowing for flexible and responsive marketing strategies.</text><rect fill="none" height="26.2969" id="_title" style="stroke:none;stroke-width:1.0;" width="535" x="1028.5" y="134.0469"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="525" x="1033.5" y="152.042">Customer Targeting Data Pipeline with Machine Learning and Pyke</text><!--MD5=[562ed55e840afc79d9783beef242227d]
+cluster Storage--><g id="cluster_Storage"><rect fill="none" height="116" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="1376" x="97.5" y="173.3438"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="219" x="676" y="188.3389">Data Collection and Storage</text></g><!--MD5=[bd83c5c1eae913ce271b6bc5020203a0]
+cluster Preprocessing--><g id="cluster_Preprocessing"><rect fill="none" height="116" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="1234" x="86.5" y="338.3438"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="354" x="526.5" y="353.3389">Data Preprocessing and Feature Engineering</text></g><!--MD5=[c13124211e401f6970144f7e1038a961]
+cluster MLTraining--><g id="cluster_MLTraining"><rect fill="none" height="116" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="1259" x="107.5" y="503.3438"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="260" x="607" y="518.3389">Machine Learning Model Training</text></g><!--MD5=[8d22b47998c0586bf310a3b80a837ddf]
+cluster PykeIntegration--><g id="cluster_PykeIntegration"><rect fill="none" height="116" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="957" x="1390.5" y="503.3438"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="168" x="1785" y="518.3389">Integration with Pyke</text></g><!--MD5=[b6632e4ca960ee34f12ab2a7053e1a97]
+cluster RuleExecution--><g id="cluster_RuleExecution"><rect fill="none" height="116" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="1141" x="1372.5" y="668.3438"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="321" x="1782.5" y="683.3389">Rule Execution and Action Determination</text></g><!--MD5=[500ec4f45b34c94adb233a24c77d02e3]
+cluster Export--><g id="cluster_Export"><rect fill="none" height="116" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="1101" x="1419.5" y="833.3438"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="114" x="1913" y="848.3389">Export Results</text></g><!--MD5=[5f7287b6f0223c1293d0daa38ecfb448]
+entity Data Sources--><g id="elem_Data Sources"><rect fill="#ADD8E6" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="133" x="114" y="227.3438"/><rect fill="#ADD8E6" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="227" y="232.3438"/><rect fill="#ADD8E6" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="225" y="234.3438"/><rect fill="#ADD8E6" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="225" y="238.3438"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="129" y="260.3389">Data Sources</text></g><g id="elem_GMN36"><path d="M282,237.8438 L282,246.3438 L247.11,250.3438 L282,254.3438 L282,262.9766 A0,0 0 0 0 282,262.9766 L1457,262.9766 A0,0 0 0 0 1457,262.9766 L1457,247.8438 L1447,237.8438 L282,237.8438 A0,0 0 0 0 282,237.8438 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M1447,237.8438 L1447,247.8438 L1457,247.8438 L1447,237.8438 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="1154" x="288" y="254.9106">"Collect data from CRM, web analytics, transaction records. Storage options include PostgreSQL, MySQL, Amazon Redshift, or Google BigQuery. Ensure data integrity and scalability."</text></g><!--MD5=[f52f1cc0f518ca6f6c171149be722472]
+entity Data Preparation--><g id="elem_Data Preparation"><rect fill="#90EE90" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="155" x="103" y="392.3438"/><rect fill="#90EE90" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="238" y="397.3438"/><rect fill="#90EE90" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="236" y="399.3438"/><rect fill="#90EE90" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="236" y="403.3438"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="118" y="425.3389">Data Preparation</text></g><g id="elem_GMN41"><path d="M293,402.8438 L293,411.3438 L258.05,415.3438 L293,419.3438 L293,427.9766 A0,0 0 0 0 293,427.9766 L1304,427.9766 A0,0 0 0 0 1304,427.9766 L1304,412.8438 L1294,402.8438 L293,402.8438 A0,0 0 0 0 293,402.8438 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M1294,402.8438 L1294,412.8438 L1304,412.8438 L1294,402.8438 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="990" x="299" y="419.9106">"Use Pandas for data manipulation and Scikit-learn for preprocessing. Handle missing values, encode categorical variables, and create predictive features."</text></g><!--MD5=[d49a5ab1038d1dacb372d40f0db90ef8]
+entity ML Models--><g id="elem_ML Models"><rect fill="#FFFF00" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="113" x="124" y="557.3438"/><rect fill="#FFFF00" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="217" y="562.3438"/><rect fill="#FFFF00" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="215" y="564.3438"/><rect fill="#FFFF00" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="215" y="568.3438"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="139" y="590.3389">ML Models</text></g><g id="elem_GMN46"><path d="M272.5,567.8438 L272.5,576.3438 L237.19,580.3438 L272.5,584.3438 L272.5,592.9766 A0,0 0 0 0 272.5,592.9766 L1350.5,592.9766 A0,0 0 0 0 1350.5,592.9766 L1350.5,577.8438 L1340.5,567.8438 L272.5,567.8438 A0,0 0 0 0 272.5,567.8438 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M1340.5,567.8438 L1340.5,577.8438 L1350.5,577.8438 L1340.5,567.8438 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="1057" x="278.5" y="584.9106">"Develop models with TensorFlow or PyTorch to predict CLV or purchase propensity. Validate models using cross-validation and optimize with hyperparameter tuning."</text></g><!--MD5=[4dacd3ace2616e0ac8645e7d074da343]
+entity Rule-based System--><g id="elem_Rule-based System"><rect fill="#FFA500" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="174" x="1406.5" y="557.3438"/><rect fill="#FFA500" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1560.5" y="562.3438"/><rect fill="#FFA500" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1558.5" y="564.3438"/><rect fill="#FFA500" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1558.5" y="568.3438"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="1421.5" y="590.3389">Rule-based System</text></g><g id="elem_GMN51"><path d="M1616,567.8438 L1616,576.3438 L1580.69,580.3438 L1616,584.3438 L1616,592.9766 A0,0 0 0 0 1616,592.9766 L2331,592.9766 A0,0 0 0 0 2331,592.9766 L2331,577.8438 L2321,567.8438 L1616,567.8438 A0,0 0 0 0 1616,567.8438 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M2321,567.8438 L2321,577.8438 L2331,577.8438 L2321,567.8438 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="694" x="1622" y="584.9106">"Integrate ML predictions with Pyke. Use predictive outputs as facts in Pyke to apply complex business rules."</text></g><!--MD5=[fcc47c429bc06a18efb5629362ba9c6d]
+entity Customer Segmentation--><g id="elem_Customer Segmentation"><rect fill="#EE82EE" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="209" x="1389" y="722.3438"/><rect fill="#EE82EE" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1578" y="727.3438"/><rect fill="#EE82EE" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1576" y="729.3438"/><rect fill="#EE82EE" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1576" y="733.3438"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="169" x="1404" y="755.3389">Customer Segmentation</text></g><g id="elem_GMN56"><path d="M1633,732.8438 L1633,741.3438 L1598.24,745.3438 L1633,749.3438 L1633,757.9766 A0,0 0 0 0 1633,757.9766 L2498,757.9766 A0,0 0 0 0 2498,757.9766 L2498,742.8438 L2488,732.8438 L1633,732.8438 A0,0 0 0 0 1633,732.8438 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M2488,732.8438 L2488,742.8438 L2498,742.8438 L2488,732.8438 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="844" x="1639" y="749.9106">"Execute rules in Pyke to segment customers. Combine ML insights with rule-based logic to target marketing campaigns effectively."</text></g><!--MD5=[73f71524c970532ada3b581064ba87a0]
+entity CSV Export--><g id="elem_CSV Export"><rect fill="#FFC0CB" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="116" x="1435.5" y="887.3438"/><rect fill="#FFC0CB" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1531.5" y="892.3438"/><rect fill="#FFC0CB" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1529.5" y="894.3438"/><rect fill="#FFC0CB" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1529.5" y="898.3438"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1450.5" y="920.3389">CSV Export</text></g><g id="elem_GMN61"><path d="M1586.5,897.8438 L1586.5,906.3438 L1551.72,910.3438 L1586.5,914.3438 L1586.5,922.9766 A0,0 0 0 0 1586.5,922.9766 L2504.5,922.9766 A0,0 0 0 0 2504.5,922.9766 L2504.5,907.8438 L2494.5,897.8438 L1586.5,897.8438 A0,0 0 0 0 1586.5,897.8438 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M2494.5,897.8438 L2494.5,907.8438 L2504.5,907.8438 L2494.5,897.8438 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="897" x="1592.5" y="914.9106">"Export targeted customer lists to CSV using Python and Pandas. Ensure files are formatted for easy consumption by downstream systems."</text></g><!--MD5=[d821ff5682582df00abea3819816ff6b]
+link Data Sources to Data Preparation--><g id="link_Data Sources_Data Preparation"><path d="M180.5,273.6638 C180.5,303.1738 180.5,355.1337 180.5,386.9738 " fill="none" id="Data Sources-to-Data Preparation" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="180.5,392.2938,184.5,383.2938,180.5,387.2938,176.5,383.2938,180.5,392.2938" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="250" x="181.5" y="318.4106">Data Cleaning and Feature Engineering</text></g><!--MD5=[8548d0bb59e9d057d71a6a11190e81f3]
+link Data Preparation to ML Models--><g id="link_Data Preparation_ML Models"><path d="M180.5,438.6638 C180.5,468.1738 180.5,520.1338 180.5,551.9738 " fill="none" id="Data Preparation-to-ML Models" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="180.5,557.2938,184.5,548.2938,180.5,552.2938,176.5,548.2938,180.5,557.2938" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="92" x="181.5" y="483.4106">Model Training</text></g><!--MD5=[7ace49cf5a3fbc8b51fca1a7f8494cab]
+link ML Models to Rule-based System--><g id="link_ML Models_Rule-based System"><path d="M193.09,556.9838 C205.61,536.4638 226.92,507.9638 254.5,495.3438 C310.68,469.6438 1307.43,477.2638 1366.5,495.3438 C1403.91,506.7938 1440.36,533.2638 1464.55,553.6438 " fill="none" id="ML Models-to-Rule-based System" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1468.62,557.1138,1464.3541,548.2367,1464.8107,553.8751,1459.1723,554.3316,1468.62,557.1138" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="113" x="787" y="483.4106">Integrate Outputs</text></g><!--MD5=[699d6bb9287df9bc18fcdb7a3eca61dd]
+link Rule-based System to Customer Segmentation--><g id="link_Rule-based System_Customer Segmentation"><path d="M1493.5,603.6637 C1493.5,633.1737 1493.5,685.1338 1493.5,716.9738 " fill="none" id="Rule-based System-to-Customer Segmentation" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1493.5,722.2938,1497.5,713.2938,1493.5,717.2938,1489.5,713.2938,1493.5,722.2938" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="1494.5" y="648.4106">Apply Rules</text></g><!--MD5=[be35f6f253c66d1154a44734865d0f8f]
+link Customer Segmentation to CSV Export--><g id="link_Customer Segmentation_CSV Export"><path d="M1493.5,768.6637 C1493.5,798.1738 1493.5,850.1338 1493.5,881.9738 " fill="none" id="Customer Segmentation-to-CSV Export" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1493.5,887.2938,1497.5,878.2938,1493.5,882.2938,1489.5,878.2938,1493.5,887.2938" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="105" x="1494.5" y="813.4106">Prepare Outputs</text></g><rect fill="#DDDDDD" height="126.0781" id="_legend" rx="7.5" ry="7.5" style="stroke:#000000;stroke-width:1.0;" width="322" x="2182.5" y="962.3438"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="2188.5" y="981.3389">Legend:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="192" x="2188.5" y="997.6357">Data Collection and Storage</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="310" x="2188.5" y="1013.9326">Data Preprocessing and Feature Engineering</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="226" x="2188.5" y="1030.2295">Machine Learning Model Training</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="2188.5" y="1046.5264">Integration with Pyke</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="282" x="2188.5" y="1062.8232">Rule Execution and Action Determination</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="2188.5" y="1079.1201">Export Results</text><rect fill="none" height="34.9219" style="stroke:none;stroke-width:1.0;" width="264" x="1164" y="1097.4219"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="95" x="1248.5" y="1106.7041">Author: Your Name</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="264" x="1164" y="1118.3447">Copyright: © 2024 Your Company. All rights reserved.</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="212" x="1190" y="1129.9854">Watermark: Confidential - Internal Use Only</text><!--MD5=[29eccfabcebcefc0cb85dd73053c49d8]
+@startuml
+' Set the title
+title Customer Targeting Data Pipeline with Machine Learning and Pyke
+
+' Set a header for a clear, concise description, purpose, and technical explanation
+header
+    **Schema Description:**
+    This diagram illustrates a comprehensive data pipeline designed to integrate machine learning predictions and rule-based logic using Pyke for effective customer targeting. The pipeline begins with data collection and progresses through stages of preprocessing, predictive modeling, and rule-based segmentation, culminating in the export of targeted campaign data.
+    
+    **Purpose:**
+    The purpose of this pipeline is to harness the predictive power of machine learning to identify potential customer behaviors and preferences, which are then refined using Pyke's rule-based system to segment customers effectively. This targeted approach aims to optimize marketing efforts, improve customer engagement, and increase ROI through more precise campaign strategies.
+
+    **Predictive Algorithm Principles:**
+    Machine learning models, such as Random Forest or Neural Networks, analyze historical data to predict future behaviors like Customer Lifetime Value (CLV) or purchase propensity. These models are trained using features derived from customer demographics, past purchase history, and engagement metrics. The objective is to use these predictions to identify high-value customers or those most likely to respond to specific marketing initiatives.
+
+    **Pyke Rules for Targeting:**
+    Pyke employs a knowledge-based system where rules are defined to act on the machine learning outputs. For example, a rule might specify that customers with a CLV prediction above a certain threshold and a recent purchase are targeted with a "Premium Campaign". Another rule might target customers under a different threshold but with high engagement in recent campaigns with a "Loyalty Campaign". These rules can dynamically adjust based on ongoing data analysis, allowing for flexible and responsive marketing strategies.
+endheader
+
+rectangle "Data Collection and Storage" as Storage {
+    [Data Sources] #LightBlue
+    note right: "Collect data from CRM, web analytics, transaction records. Storage options include PostgreSQL, MySQL, Amazon Redshift, or Google BigQuery. Ensure data integrity and scalability."
+}
+
+rectangle "Data Preprocessing and Feature Engineering" as Preprocessing {
+    [Data Preparation] #LightGreen
+    note right: "Use Pandas for data manipulation and Scikit-learn for preprocessing. Handle missing values, encode categorical variables, and create predictive features."
+}
+
+rectangle "Machine Learning Model Training" as MLTraining {
+    [ML Models] #Yellow
+    note right: "Develop models with TensorFlow or PyTorch to predict CLV or purchase propensity. Validate models using cross-validation and optimize with hyperparameter tuning."
+}
+
+rectangle "Integration with Pyke" as PykeIntegration {
+    [Rule-based System] #Orange
+    note right: "Integrate ML predictions with Pyke. Use predictive outputs as facts in Pyke to apply complex business rules."
+}
+
+rectangle "Rule Execution and Action Determination" as RuleExecution {
+    [Customer Segmentation] #Violet
+    note right: "Execute rules in Pyke to segment customers. Combine ML insights with rule-based logic to target marketing campaigns effectively."
+}
+
+rectangle "Export Results" as Export {
+    [CSV Export] #Pink
+    note right: "Export targeted customer lists to CSV using Python and Pandas. Ensure files are formatted for easy consumption by downstream systems."
+}
+
+'Sequence of operations
+[Data Sources] -down-> [Data Preparation] : "Data Cleaning and Feature Engineering"
+[Data Preparation] -down-> [ML Models] : "Model Training"
+[ML Models] -right-> [Rule-based System] : "Integrate Outputs"
+[Rule-based System] -down-> [Customer Segmentation] : "Apply Rules"
+[Customer Segmentation] -down-> [CSV Export] : "Prepare Outputs"
+
+' Add a legend to explain the icons
+legend right
+    Legend:
+    Data Collection and Storage
+    Data Preprocessing and Feature Engineering
+    Machine Learning Model Training
+    Integration with Pyke
+    Rule Execution and Action Determination
+    Export Results
+endlegend
+
+' Add footer for author and copyright notice
+footer
+Author: Your Name
+Copyright: © 2024 Your Company. All rights reserved.
+Watermark: Confidential - Internal Use Only
+endfooter
+@enduml
+
+@startuml
+title Customer Targeting Data Pipeline with Machine Learning and Pyke
+
+header
+    **Schema Description:**
+    This diagram illustrates a comprehensive data pipeline designed to integrate machine learning predictions and rule-based logic using Pyke for effective customer targeting. The pipeline begins with data collection and progresses through stages of preprocessing, predictive modeling, and rule-based segmentation, culminating in the export of targeted campaign data.
+    
+    **Purpose:**
+    The purpose of this pipeline is to harness the predictive power of machine learning to identify potential customer behaviors and preferences, which are then refined using Pyke's rule-based system to segment customers effectively. This targeted approach aims to optimize marketing efforts, improve customer engagement, and increase ROI through more precise campaign strategies.
+
+    **Predictive Algorithm Principles:**
+    Machine learning models, such as Random Forest or Neural Networks, analyze historical data to predict future behaviors like Customer Lifetime Value (CLV) or purchase propensity. These models are trained using features derived from customer demographics, past purchase history, and engagement metrics. The objective is to use these predictions to identify high-value customers or those most likely to respond to specific marketing initiatives.
+
+    **Pyke Rules for Targeting:**
+    Pyke employs a knowledge-based system where rules are defined to act on the machine learning outputs. For example, a rule might specify that customers with a CLV prediction above a certain threshold and a recent purchase are targeted with a "Premium Campaign". Another rule might target customers under a different threshold but with high engagement in recent campaigns with a "Loyalty Campaign". These rules can dynamically adjust based on ongoing data analysis, allowing for flexible and responsive marketing strategies.
+endheader
+
+rectangle "Data Collection and Storage" as Storage {
+    [Data Sources] #LightBlue
+    note right: "Collect data from CRM, web analytics, transaction records. Storage options include PostgreSQL, MySQL, Amazon Redshift, or Google BigQuery. Ensure data integrity and scalability."
+}
+
+rectangle "Data Preprocessing and Feature Engineering" as Preprocessing {
+    [Data Preparation] #LightGreen
+    note right: "Use Pandas for data manipulation and Scikit-learn for preprocessing. Handle missing values, encode categorical variables, and create predictive features."
+}
+
+rectangle "Machine Learning Model Training" as MLTraining {
+    [ML Models] #Yellow
+    note right: "Develop models with TensorFlow or PyTorch to predict CLV or purchase propensity. Validate models using cross-validation and optimize with hyperparameter tuning."
+}
+
+rectangle "Integration with Pyke" as PykeIntegration {
+    [Rule-based System] #Orange
+    note right: "Integrate ML predictions with Pyke. Use predictive outputs as facts in Pyke to apply complex business rules."
+}
+
+rectangle "Rule Execution and Action Determination" as RuleExecution {
+    [Customer Segmentation] #Violet
+    note right: "Execute rules in Pyke to segment customers. Combine ML insights with rule-based logic to target marketing campaigns effectively."
+}
+
+rectangle "Export Results" as Export {
+    [CSV Export] #Pink
+    note right: "Export targeted customer lists to CSV using Python and Pandas. Ensure files are formatted for easy consumption by downstream systems."
+}
+
+[Data Sources] -down-> [Data Preparation] : "Data Cleaning and Feature Engineering"
+[Data Preparation] -down-> [ML Models] : "Model Training"
+[ML Models] -right-> [Rule-based System] : "Integrate Outputs"
+[Rule-based System] -down-> [Customer Segmentation] : "Apply Rules"
+[Customer Segmentation] -down-> [CSV Export] : "Prepare Outputs"
+
+legend right
+    Legend:
+    Data Collection and Storage
+    Data Preprocessing and Feature Engineering
+    Machine Learning Model Training
+    Integration with Pyke
+    Rule Execution and Action Determination
+    Export Results
+endlegend
+
+footer
+Author: Your Name
+Copyright: © 2024 Your Company. All rights reserved.
+Watermark: Confidential - Internal Use Only
+endfooter
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
