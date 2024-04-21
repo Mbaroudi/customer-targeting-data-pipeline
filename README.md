@@ -25,7 +25,7 @@ Replace "path/to/your/architecture_diagram.png" with the actual path to the imag
 ### Prerequisites
 Ensure Docker is installed on your system. If not, you can download it from Docker's official site.
 
-### PClone the Repository
+### Clone the Repository
 To get started, clone the repository to ensure you have all the necessary files for building the Docker image:
 
 bash
@@ -33,7 +33,7 @@ bash
 git clone https://github.com/Mbaroudi/customer-targeting-data-pipeline.git
 cd customer-targeting-data-pipeline
 ```
-### PBuilding the Docker Image
+### Building the Docker Image
 Build the Docker image using the following command:
 
 bash
@@ -42,7 +42,7 @@ docker build -t customer-targeting-app .
 ```
 This command builds a Docker image named customer-targeting-app based on the Dockerfile in the current directory.
 
-### PRunning the Container
+### Running the Container
 Run the container from the Docker image:
 
 ### Running the Container
