@@ -47,21 +47,21 @@ Run the container from the Docker image:
 
 ### Running the Container
 To run the container and interact with the shell for executing scripts manually or checking outputs, use the following command:
-```
 bash
+```
 docker run -it --rm customer-targeting-app /bin/bash
 ```
 Once inside the container, you can run the pipeline script:
-```
 bash
+```
 ./run_pipeline.sh
 ```
 
 This script processes data through your entire pipeline and saves the results to the specified output directory. It also prints the top 10 results to the console:
 
 ### Result
-```
 bash
+```
 customer_id,campaign_result
 1,Young Prospects Offer
 2,Young Prospects Offer
