@@ -1,6 +1,6 @@
-knowledge_base customer_categorization.
+knowledge_base customer_categorization
 
-rule_base forward_chaining.
+rule_base customer_categorization forward_chaining
 
 rule classify_high_spenders {
     when {
@@ -21,4 +21,3 @@ rule classify_frequent_shoppers {
         assert context.frequent_shopper($customer_id);
     }
 }
-

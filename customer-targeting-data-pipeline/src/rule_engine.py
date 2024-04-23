@@ -20,14 +20,25 @@ def prepare_data(df, features):
 
 def init_knowledge_engine():
     try:
-        engine = knowledge_engine.engine(__file__)
-        engine.load_krb_files(['./forward_rules.krb', './backward_rules.krb'])
-        engine.activate('forward_chaining')
+        # The __file__ should point to the current script file (rule_engine.py).
+        # We can use os.path.dirname to get the directory of this file and
+        # then construct the paths to the .krb files.
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        krb_forward = os.path.join(current_dir, 'forward_rules.krb')
+        krb_backward = os.path.join(current_dir, 'backward_rules.krb')
+
+        # Initialize the knowledge engine with the current directory.
+        engine = knowledge_engine.engine(current_dir)
+
+        # Load the .krb files using the absolute paths.
+        engine.load_krb_files([krb_forward, krb_backward])
+        engine.activate('forward_chaining')  # Make sure this matches the name in your .krb
         return engine
     except Exception as e:
         print("Failed to initialize the Pyke knowledge engine:", e)
         krb_traceback.print_exc()
         raise
+
 
 def assert_facts(engine, data, predictions):
     """Asserts necessary facts into the Pyke knowledge engine."""
