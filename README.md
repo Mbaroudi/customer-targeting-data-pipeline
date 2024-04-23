@@ -19,8 +19,6 @@ Below is the architecture diagram of our data pipeline, showing the flow from da
 ![Architecture Diagram](plantuml.svg)
 
 
-Replace "path/to/your/architecture_diagram.png" with the actual path to the image file in your repository or a URL if the image is hosted online.
-
 ## 🐳 Docker Setup
 ### Prerequisites
 Ensure Docker is installed on your system. If not, you can download it from Docker's official site.

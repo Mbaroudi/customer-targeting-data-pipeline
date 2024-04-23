@@ -1,0 +1,27 @@
+# backward_rules.krb
+
+# Declares the namespace for this knowledge base
+knowledge_base('backward_chaining')
+
+# A rule to determine eligibility for a premium campaign
+rule_base (campaign_rules)
+
+# Check for eligibility for different campaigns based on customer status
+def_rule (check_discount_eligibility,
+          ($customer_id, $campaign),
+          (context: high_spender ($customer_id)),
+          (pyke: forall, (context: standard_campaign($customer_id))),
+          $campaign = 'Platinum Campaign')
+
+def_rule (check_discount_eligibility,
+          ($customer_id, $campaign),
+          (context: frequent_shopper ($customer_id)),
+          (pyke: forall, (context: standard_campaign($customer_id))),
+          $campaign = 'Gold Campaign')
+
+# Fallback to standard campaign if no special conditions are met
+def_rule (check_discount_eligibility,
+          ($customer_id, $campaign),
+          (context: standard_campaign($customer_id)),
+          $campaign = 'Standard Campaign')
+

@@ -1,0 +1,24 @@
+knowledge_base customer_categorization.
+
+rule_base forward_chaining.
+
+rule classify_high_spenders {
+    when {
+        $customer = context.customer($customer_id, $prediction, $total_spent, $transaction_count, $age),
+        $total_spent > 10000;
+    }
+    then {
+        assert context.high_spender($customer_id);
+    }
+}
+
+rule classify_frequent_shoppers {
+    when {
+        $customer = context.customer($customer_id, $prediction, $total_spent, $transaction_count, $age),
+        $transaction_count > 15;
+    }
+    then {
+        assert context.frequent_shopper($customer_id);
+    }
+}
+
