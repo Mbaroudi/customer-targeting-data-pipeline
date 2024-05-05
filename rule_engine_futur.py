@@ -37,22 +37,7 @@ def init_knowledge_engine():
         krb_traceback.print_exc()
         raise
 
-def apply_advanced_rules(data, model, engine):
-    """Apply advanced rules based on psychographics and sentiment."""
-    predictions = model.predict(data)
-    
-    # Assert facts about customer psychographics and sentiment
-    for idx, customer in data.iterrows():
-        # This is where you would assert facts from your enriched dataset
-        engine.assert_('customer', 'psychographics', (customer['customer_id'], customer['interests'], customer['values']))
-        engine.assert_('customer', 'sentiment', (customer['customer_id'], customer['sentiment_score']))
-    
-    # Activate the rules engine to apply new rules
-    engine.activate('psychographic_rules')
-    
-    # Retrieve and return the results
-    results = engine.prove_1_goal('campaign.targeting($customer_id, $campaign)')
-    return {fact[1][0]: fact[1][1] for fact in results}
+
 
 def assert_facts(engine, data, predictions):
     """Asserts necessary facts into the Pyke knowledge engine."""
